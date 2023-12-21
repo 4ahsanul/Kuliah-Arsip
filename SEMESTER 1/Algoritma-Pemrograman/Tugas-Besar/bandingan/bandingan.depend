@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1578383612 source:c:\users\62821\documents\laprak alpro\tugas besar\bandingan\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+

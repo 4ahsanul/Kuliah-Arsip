@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1578721705 source:c:\users\62821\documents\laprak alpro\tugas besar\test\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
