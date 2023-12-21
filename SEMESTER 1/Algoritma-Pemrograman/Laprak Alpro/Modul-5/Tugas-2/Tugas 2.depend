@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1574403957 source:c:\users\62821\documents\laprak alpro\mod 5\tugas 2\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<iomanip>
+
