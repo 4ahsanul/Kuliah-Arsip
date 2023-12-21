@@ -1,0 +1,72 @@
+﻿1. Algortima untuk menghtung banyaknya bilangan genap dan ganjil, 
+   misal kita inputkan 5, maka outputnya ada 3 bilangan ganjil dan 2 bilangan genap.
+   Output :
+   Masukkan bilangan : 5
+   5 memiliki 2 bilangan genap dan 3 bilangan ganjil
+
+2. Algoritma untuk menentukan validasi username dan password, dimana akan di ulang maksimal 3 kali, 
+   jika benar akan muncul komentar ”anda berhasil masuk” tapi jika tidak muncul komentar 
+   ”maaf user name dan password anda salah”.
+   output :
+   Masukkan usename : balbalbab
+   Masukkan password   : alksdjlkj
+   
+   jika berhasil :
+   anda berhasil masuk
+
+   jika gagal :
+   maaf user name dan password anda salah
+
+3. Input 3 angka sembarang, lalu tentukan nilai terbesarnya.
+   output :
+   masukkan angka 1 : 3
+   masukkan angka 2 : 8
+   masukkan angka 3 : 2
+
+   bilangan terbesar adalah 8
+
+4. Misal kita input 6, maka yang tercetak 122333444455555666666
+
+5. Program disuruh nginput, akan berhenti jika yang diinputkan 0
+   output :
+   Masukkan bilangan : 1
+   Masukkan bilangan : 2
+   Masukkan bilangan : 7
+   Masukkan bilangan : 0
+   Bye :(
+
+
+6. Program untuk mencari ratusan, puluhan dan satuan
+   output:
+   Masukkan bilangan : 876
+   Memiliki 8 ratusan
+   Memiliki 7 puluhan
+   Memiliki 6 satuan
+
+7. Program mencetak segi empat dengan nesetd looping
+   output :
+	****
+	****
+	****
+	****
+8. Program mencetak segi empat dengan nesetd looping tapi tengahnya bolong
+    output :
+	****
+	*  *
+	*  *
+	****
+
+9. Program mencetak segitiga , misal kita inputkan 4 maka akan tercetak :
+   output :
+	*
+	**
+	***
+	****
+
+10. Program mencetak segitiga , misal kita inputkan 4 maka akan tercetak :
+   ouptut : 
+	****
+	***
+	**
+	*
+
