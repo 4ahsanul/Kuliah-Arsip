@@ -1,0 +1,1 @@
+Kasus race condition terjadi ketika dua atau lebih threads dapat mengakses shared data dan mereka mencoba untuk memprosesnya dalam waktu yang bersamaan. Sebagai hasilnya, nilai dari variabel mungkin akan tidak terduga dan bervariasi sesuai dengan waktu pergantian antar proses.
