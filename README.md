@@ -1,2 +1,2 @@
 # Kuliah-Arsip
-Repositori GitHub ini berisi arsip tugas perkuliahan di Teknik Informatika. Di sini, menemukan implementasi konsep-konsep kunci, kode pemrograman, dan dokumentasi terkait tugas-tugas selama perkuliahan. Repositori ini mencerminkan perjalanan saya dalam memahami materi dan menyelesaikan tugas-tugas akademis.
+Repositori GitHub ini berisi arsip tugas perkuliahan di Teknik Informatika, khususnya yang terkait dengan penulisan kode. Di sini berupa implementasi konsep-konsep, kode pemrograman, dan dokumentasi tugas-tugas selama perkuliahan teknis. Repositori ini fokus pada matkul terkait penulisan kode, dan tidak mencantumkan topik non-teknis seperti manajemen bisnis, agama, bahasa Inggris, dan lain-lain.
