@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Truk
+comment0.text=\r\n\ Filfimo\ Yulfiz\ Ahsanul\ Hulqi\r\n\ 19102143\r\n\ IF\ 07\ N\r\n
+comment1.params=no\ thn\ da
+comment1.target=Truk(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ bergerak()
+comment3.params=
+comment3.target=int\ getDayaAngkut()
+numComments=4

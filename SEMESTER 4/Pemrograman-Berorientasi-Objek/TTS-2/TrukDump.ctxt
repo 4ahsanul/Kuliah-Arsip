@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TrukDump
+comment0.text=\r\n\ Filfimo\ Yulfiz\ Ahsanul\ Hulqi\r\n\ 19102143\r\n\ IF\ 07\ N\r\n
+comment1.params=no\ thn\ da\ beratTrukKosong
+comment1.target=TrukDump(java.lang.String,\ int,\ int,\ int)
+comment2.params=totalBeratTimbangan
+comment2.target=void\ hitungBeratMuatan(int)
+numComments=3
