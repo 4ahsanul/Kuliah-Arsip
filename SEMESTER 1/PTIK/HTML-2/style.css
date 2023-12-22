@@ -1,0 +1,58 @@
+body{
+    margin-top: 20px;
+    height: 100vh;
+
+    background: 
+    linear-gradient(45deg, rgb(205,133,63), transparent),
+    repeating-linear-gradient(120deg, rgb(100, 178, 200) 0%, rgb(100, 178, 200) 5%, transparent 5%, transparent 10%, rgb(224, 97, 197) 10%, rgb(224, 97, 197) 11%, transparent 10%, transparent 11%, rgb(232, 45, 180) 10%, rgb(232, 45, 180) 11%, transparent 12%, transparent 13%),
+    rgb(190, 158, 192) repeating-linear-gradient(-120deg, rgba(100, 178, 200, 0.5) 0%, rgba(100, 178, 200, 0.5) 5%, transparent 5%, transparent 10%);
+}
+
+html{
+    overflow: hidden;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    background: pink;
+    position: absolute;
+}
+
+.box{
+    width: 300px;
+    height: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: 70px;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.bubble{
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(90deg, rgb(199, 83, 223), rgb(200, 90, 230));
+    margin-top: -1100px;
+    margin-left: -200px;
+    transform: rotate(-45deg);
+    position: relative;
+    opacity: 1;
+    transition: 3s;
+}
+
+.box:hover .bubble-2{
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(90deg, rgb(212, 98, 38), rgb(212, 100, 40));
+    margin-top: -700px;
+    margin-left: -200px;
+    transform: rotate(-45deg);
+    position: relative;
+    opacity: 1;
+    
+}
