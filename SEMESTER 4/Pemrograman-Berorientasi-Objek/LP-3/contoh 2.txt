@@ -1,0 +1,51 @@
+Subclass : Nampass.java
+
+public class NamPass {
+    //ini adalah encapsulation
+    //private agar tdk dapat diakses dari luar kelas, kecuali dengan method accesor dan mutator
+    private String nama;
+    private String pass;
+
+    //getter and setter
+    //kenapa sih ini make public bukan private? karna jika private jg tdk dpt diakses dari luar
+    //karna bila private semua maka accessor dan mutator nya tdk jalan
+    //nama
+    //ini get adalah accessor
+    public String getNama() {
+        return nama;
+    }
+
+    //ini set adalah mutator
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    //pass
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }  
+}
+
+
+Mainclass : User.java
+
+public class User {
+    public static void main(String[] args) {//menandakan kelas Main
+        
+        //ini adalah pembuatan objek baru
+        NamPass data = new NamPass();
+        
+        //get/mutator
+        data.setNama("Dina");
+        data.setPass("12345");
+        
+        //get/accessor
+        //perintah
+        System.out.println("Username : "+ data.getNama());
+        System.out.println("Password : "+ data.getPass());
+    }
+}

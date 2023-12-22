@@ -1,0 +1,75 @@
+Subclass : biodata.java
+//MATERI Mutator dan Accessor
+//Accessor :sebuah method yang di gunakan untuk mengembalikan nilai dari field/variable yang memiliki hak akses private
+
+//Mutator : Kebalikan dari Accessor, mutator meimiliki sifat yang sangat berbeda dengan Acessor, 
+//karena mutator akan merubah data dari sebuah Field/Variable yang bersangkutan
+
+public class biodata {
+    private String nim;
+    private String nama;
+    private String kelas;
+    private int nilai;
+    
+    //getter and setter
+    //nim
+    //ini get adalah accessor
+    public String getNim() {
+        return nim;
+    }
+
+    //mutator
+    public void setNim(String nim) {
+        this.nim = nim;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getKelas() {
+        return kelas;
+    }
+
+    public void setKelas(String kelas) {
+        this.kelas = kelas;
+    }
+
+    public int getNilai() {
+        return nilai;
+    }
+
+    public void setNilai(int nilai) {
+        this.nilai = nilai;
+    }
+    
+
+}
+
+
+Main.java
+
+public class Main {
+    //psvm->tab
+    //menandakan kelas Main
+    public static void main(String[] args) {
+        //ini dalah pembuatan objek baru
+        biodata data = new biodata();
+        
+        //pengisian atribute set
+        data.setKelas("IF07N");
+        data.setNim("18102010");
+        data.setNama("DINA YULIANA");
+        data.setNilai(95);
+        
+    
+        System.out.println("nim :" +data.getNim());
+        System.out.println("nama :" +data.getNama());
+        System.out.println("kelas :" +data.getKelas());
+        System.out.println("nilai pemrograman java :" +data.getNilai());
+    }
+}
