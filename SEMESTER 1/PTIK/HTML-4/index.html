@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Institut Teknologi Telkom Purwokerto</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <section></section>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                var scroll_position = $(window).scrollTop()/2;
+                $('section').css({
+                    'background-position-x' : - scroll_position + 'px',
+                })
+            })
+        </script>
+
+        <img src="logo.jpg" id="logo">
+        <h1>Tentang Kami</h1>
+        <p id="about">Institut Teknologi Telkom  Purwokerto adalah perguruan tinggi yang dikelola oleh Yayasan Pendidikan Telkom dan merupakan satu-satunya Institut di Jawa Tengah.</br>
+            IT Telkom Purwokerto memiliki 2 Fakultas yaitu Fakultas Teknik Telekomunikasi (FTTE) dan Fakultas Teknologi Industri dan Informatika (FTII).
+            FTEE menaungi 3 program studi yaitu  D3 Teknik Telekomunikasi, S1 Teknik Telekomunikasi dan S1 Teknik Elektro sedangkan FTII menaungi 5 Program Studi yaitu  S1 Teknik Informatika,  S1 Sistem Informasi, S1 Rekayasa Perangkat Lunak, S1 Teknik Industri dan  S1 Desain Komunikasi Visual</br>   
+            Institut Teknologi Telkom Purwokerto merupakan salah satu Telkom University National Campus yang akan dikembangkan di beberapa wilayah Indonesia. Institut Teknologi Telkom Purwokerto  mempunyai keinginan luhur dan bertekad menjadi perguruan tinggi mandiri dan sebagai pusat unggulan di bidang sains, teknologi dan teknik  terutama yang berbasis pada teknologi telematika, yang mempunyai fungsi dan tugas serta tanggung jawab untuk mengembangkan sumber daya manusia, sebagai agen perubahan dalam pembentukan insan cerdas dan kompetitif, berkarakter dan berperan dalam pembentukan masyarakat yang sejahtera.
+        </p>
+    </body>
+</html>
